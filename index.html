@@ -11,7 +11,32 @@
 </head>
 
 <body>
-    Kopal Kharap
+    <header>
+        <h1 class="text-center fw-bold my-4 text-success">Last Cash</h1>
+    </header>
+
+    <main class="container d-flex">
+        <div>
+            <img src="image/coins.jpg" alt="">
+        </div>
+        <div class="bg-light w-100 ms-5 p-5">
+            <div class="w-100 border row g-3">
+                <h4 class="text-center col-12">Income</h4>
+                <label class="text-end col-12" for="Income">Income: <input type="text"></label>
+                <h4 class="text-center ">Expenses</h4>
+                <label class="text-end col-12" for="Food">Food: <input type="text"></label>
+                <label class="text-end col-12" for="Rent">Rent: <input type="text"></label>
+                <label class="text-end col-12" for="Clothes">Clothes: <input type="text"></label>
+                <div class="text-center  col-12"><button
+                        class="bg-success text-white fw-bold px-3 py-2 border-0 rounded">Calculate</button>
+                </div>
+                <h4 class="text-center ">Total Expenses: <span>00</span></h4>
+                <h4 class="text-center ">Balance: <span>00</span></h4>
+
+
+            </div>
+        </div>
+    </main>
 
     <script src="script/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
