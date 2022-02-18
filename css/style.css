@@ -1,9 +1,10 @@
+/* banner image  */
 img{
     margin-left: 50%;
             transform: translateX(-50%);
 }
 
-
+/* all error message  */
 #check-expense,#saving,#balance-first,#saving-check,#check-positive,#check-number{
     display: none;
 }

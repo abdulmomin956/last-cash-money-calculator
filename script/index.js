@@ -65,6 +65,7 @@ document.getElementById('save').addEventListener('click', function () {
             document.getElementById('saving').style.display = 'none';
         }
         else {
+            document.getElementById('saving').style.display = 'none';
             document.getElementById('balance-first').style.display = 'none';
             const saving = document.getElementById('saving-amount').innerText = income * parcentage / 100;
             if (saving > balance) {
